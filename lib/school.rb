@@ -26,7 +26,7 @@ class School
     @roster.each do |key,value|
       return_array[key] = value.sort
     end
-    return_array
+    return_hash
   end
 
 
