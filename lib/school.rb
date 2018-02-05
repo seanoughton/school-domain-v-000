@@ -24,7 +24,7 @@ class School
   def sort()
     return_hash = {}
     @roster.each do |key,value|
-      return_array[key] = value.sort
+      return_hash[key] = value.sort
     end
     return_hash
   end
