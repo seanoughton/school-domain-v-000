@@ -22,10 +22,11 @@ class School
   end
 
   def sort()
+    return_array = []
     @roster.each do |key,value|
-      value.sort!
+      return_array[key] = value.sort
     end
-    @roster
+    @return_array
   end
 
 
