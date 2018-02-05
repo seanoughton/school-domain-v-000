@@ -5,7 +5,7 @@ class School
     @roster = {}
   end
 
-  attr_reader :name, :roster
+  attr_accessor :name, :roster
 
   def add_student(name,grade)
     if @roster.include?(grade)
